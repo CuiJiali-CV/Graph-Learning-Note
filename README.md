@@ -32,8 +32,7 @@
 
   * 双线性插值：离散坐标下，通过插值的方法计算得到连续位置的像素值
 
-  * 学习的参数
-<img src="https://latex.codecogs.com/gif.latex?\Delta\alpha_k,\Delta\beta_k" title="\Delta\alpha_k,\Delta\beta_k" />
+  * 学习的参数<img src="https://latex.codecogs.com/gif.latex?\Delta\alpha_k,\Delta\beta_k" title="\Delta\alpha_k,\Delta\beta_k" />
 
   *  缺点：可变卷积核的形状固定，对于不同数据集无法适应
 
