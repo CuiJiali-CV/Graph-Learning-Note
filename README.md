@@ -47,13 +47,13 @@
 
   * 箭头表示格子的偏移量，而偏移量由数据训练得来的。结构是end2end的，所以可以使用BP训练。
 
-  * <img src="https://latex.codecogs.com/gif.latex?y(p_0)=\sum_{p_n\in&space;R}w(p_n)\cdot&space;x(p_0&plus;p_n)" title="y(p_0)=\sum_{p_n\in R}w(p_n)\cdot x(p_0+p_n)" />
+  * <img src="https://latex.codecogs.com/gif.latex?y(p_0)=\sum_{p_n\in&space;R}w(p_n)\cdot&space;x(p_0&plus;p_n)" title="y(p_0)=\sum_{p_n\in R}w(p_n)\cdot x(p_0+p_n)" />(1)
 
-  * <img src="https://latex.codecogs.com/gif.latex?R={(-1,-1),(-1,0),...,(0,1),(1,1)}" title="R={(-1,-1),(-1,0),...,(0,1),(1,1)}" />
+  * (2)<img src="https://latex.codecogs.com/gif.latex?R={(-1,-1),(-1,0),...,(0,1),(1,1)}" title="R={(-1,-1),(-1,0),...,(0,1),(1,1)}" />(2)
 
-  * <img src="https://latex.codecogs.com/gif.latex?y(p_0)=\sum_{p_n\in&space;R}w(p_n)\cdot&space;x(p_0&plus;p_n&plus;\Delta&space;p_n)" title="y(p_0)=\sum_{p_n\in R}w(p_n)\cdot x(p_0+p_n+\Delta p_n)" />
+  * <img src="https://latex.codecogs.com/gif.latex?y(p_0)=\sum_{p_n\in&space;R}w(p_n)\cdot&space;x(p_0&plus;p_n&plus;\Delta&space;p_n)" title="y(p_0)=\sum_{p_n\in R}w(p_n)\cdot x(p_0+p_n+\Delta p_n)" />(3)
 
-  * <img src="https://latex.codecogs.com/gif.latex?x(p)=\sum_{q}G(q,p)\cdot&space;x(q)" title="x(p)=\sum_{q}G(q,p)\cdot x(q)" />
+  * <img src="https://latex.codecogs.com/gif.latex?x(p)=\sum_{q}G(q,p)\cdot&space;x(q)" title="x(p)=\sum_{q}G(q,p)\cdot x(q)" />(4)
 
 
 
