@@ -49,7 +49,7 @@
 
   * <img src="https://latex.codecogs.com/gif.latex?y(p_0)=\sum_{p_n\in&space;R}w(p_n)\cdot&space;x(p_0&plus;p_n)" title="y(p_0)=\sum_{p_n\in R}w(p_n)\cdot x(p_0+p_n)" />
 
- <img src="https://latex.codecogs.com/gif.latex?R={(-1,-1),(-1,0),...,(0,1),(1,1)}" title="R={(-1,-1),(-1,0),...,(0,1),(1,1)}" />
+  *<img src="https://latex.codecogs.com/gif.latex?R={(-1,-1),(-1,0),...,(0,1),(1,1)}" title="R={(-1,-1),(-1,0),...,(0,1),(1,1)}" />
 
 
   * $$
