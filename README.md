@@ -15,6 +15,7 @@
     </a>
 </p>
 
+
 ### Overviews of history and details in graph deep learning
 
 <br /><br />
@@ -34,7 +35,7 @@
 
   * 学习的参数<img src="https://latex.codecogs.com/gif.latex?\Delta\alpha_k,\Delta\beta_k" title="\Delta\alpha_k,\Delta\beta_k" />
 
-  *  缺点：可变卷积核的形状固定，对于不同数据集无法适应
+  * 缺点：可变卷积核的形状固定，对于不同数据集无法适应
 
 * ##### 可变形卷积（ICCV 2017)
 
@@ -54,7 +55,7 @@
 
 
 
-    
+​    
 
   * (1)(2)讲述的是在规则的R空间下（3x3), 非连续pn
 
@@ -66,7 +67,42 @@
 
   
 
-<br /><br />
+<br />
+
+<br />
+
+
+
+#### 谱域图卷积
+
+- ##### 卷积定理
+
+  - <img src="https://latex.codecogs.com/gif.latex?\Gamma&space;[f_1(t)\star&space;f_2(t))]=F_1(w)\cdot&space;F_2(w)" title="\Gamma [f_1(t)\star f_2(t))]=F_1(w)\cdot F_2(w)" />
+  - f(t)为空域上的信号，F（w)为频域上的信号。 Gamma为傅里叶变换， star为卷积，dot为乘积。
+  - 两信号在空域的卷积的傅里叶变换等于两信号在频域中的傅里叶变换的乘积。
+  - 那么就可以反过来操作，
+    - 将空域信号转换到频域，然后相乘
+    - 将相乘的结果，傅里叶反变换到空域，得到空域的卷积结果
+
+- ##### 图傅里叶变换
+
+  - ### 拉普拉斯矩阵
+
+    - ![Image text](https://github.com/CuiJiali-CV/Graph-Learning-Note/raw/master/img/lapalace.png)
+
+    - ###### 拉普拉斯矩阵是对称半正定矩阵：
+
+      - 拉普拉斯矩阵的n个特征向量可以构成n维空间中的一组基
+
+    - #### 拉普拉斯矩阵是图上的一种拉普拉斯算子
+
+  - ##### 图上的信号表示
+
+    - 图上的信号一般表达为一个向量。假设有n个节点，将图上的信号表示为x={x1,x2,...,xn}。x1的值为对应节点的信号值。
+
+  - #### 对于graph上的信号x，进行傅里叶变换。要找到一组正交基，然后通过这组正交基的线性组合来表达。这组正交基就是拉普拉斯矩阵的特征向量。
+
+​	
 
 ## Solutions
 
